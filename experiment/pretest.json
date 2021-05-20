@@ -1,18 +1,47 @@
 [
-{"question":"This is a Sample Question 1?",
+{"question":"1. How many bits are required to add three 8 bits gray-scale images without losing precision in the data?",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"9",
+            "b":"10",
+            "c":"11",
+            "d":"8"
           },
 "correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
+
+{"question":"2. You have added two 8-bit images. To maintain the result in 8 bits which of the following would you perform?",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"Scale down the intensity values of two images by half before performing addition",
+            "b":"Set the overflowing pixel value to the maximum",
+            "c":"After performing addition, scale down the output image intensities values by half",
+            "d":"All of the above"
           },
-"correctAnswer":"c"} 
+"correctAnswer":"c"}, 
+
+{"question":"3. After performing division operation, to display the quotient image which operation would you perform?",
+"answers":{
+            "a":"Clipping",
+            "b":"Auto Scaling",
+            "c":"Both",
+            "d":"None"
+          },
+"correctAnswer":"a"},
+
+{"question":"4. In a bolt manufacturing plant quality of the bolts produced is of interest. Consider an assembly line of these bolts, and assume an image can be taken of individual bolts coming in the line. One way to assess the quality of a final bolt is to compare the images of the bolt with standard bolt image. In such a scenario, what image arithmetic operation would you perform to identify a faulty bolt?",
+"answers":{
+            "a":"Addition",
+            "b":"Subtraction",
+            "c":"Division",
+            "d":"Multiplication"
+          },
+"correctAnswer":"c"},
+
+{"question":"5. To remove the background of a face image, which image arithmetic operation is useful?",
+"answers":{
+            "a":"Addition",
+            "b":"Subtraction",
+            "c":"Division",
+            "d":"Multiplication"
+          },
+"correctAnswer":"a"}
+
 ]
