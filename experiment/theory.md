@@ -1,4 +1,4 @@
- A (x,y) o B(x,y) = I(x,y)
+A (x,y) o B(x,y) = I(x,y)
 
 The important requirement in image arithmetic is that all (input and output) the images are of the same size MxM.
 
@@ -6,37 +6,38 @@ Arithmetic operations are done pixelwise. Let p = A(x,y) and q = B(x,y) be the p
 
 **Addition :**
 
-I(x,y) = A(x,y) + B(x,y) ¡ú r = p + q
+I(x,y) = A(x,y) + B(x,y) Â¡Ãº r = p + q
 
 **Subtraction :**
 
-I(x,y) = A(x,y) - B(x,y) ¡ú r = p - q
+I(x,y) = A(x,y) - B(x,y) Â¡Ãº r = p - q
 
 **Difference :**
 
-I(x,y) = |A(x,y) - B(x,y)| ¡ú r = |p - q|
+I(x,y) = |A(x,y) - B(x,y)| Â¡Ãº r = |p - q|
 
 **Multiplication :**
 
-I(x,y) = A(x,y) X B(x,y) ¡ú r = p x q
+I(x,y) = A(x,y) X B(x,y) Â¡Ãº r = p x q
 
 **Division :**
 
-I(x,y) = A(x,y) / B(x,y) ¡ú r = p / q
+I(x,y) = A(x,y) / B(x,y) Â¡Ãº r = p / q
+
 
 **Implementation issues:**
 
 Digital images are stored as b - bit images. Hence, the range of values a pixel can take is restricted to the range [ 0, 1,... (2b -1)]. With b= 8 this range is [0,1,...255]. The closed interval poses a problem when performing arithmetic operations in practice, as the results are not guaranteed to be within this interval. For an 8-bit image the intervals for the output pixel for each operation are:
 
-Addition: r ¡Ê [0, (2x255=510)]
+Addition: r âˆˆ [0, (2x255=510)]
 
-Subtraction: r ¡Ê [-255, 255]
+Subtraction: r âˆˆ [-255, 255]
 
-Difference: r ¡Ê [0, 255]
+Difference: r âˆˆ [0, 255]
 
-Multiplication: r ¡Ê [0, (2552 = 65025)]
+Multiplication: r âˆˆ [0, (255<sup>2</sup> = 65025)]
 
-Division: r ¡Ê [0,¡Þ]
+Division: r âˆˆ [0,âˆž]
 
 Since we need r to be in [0,255], we will have an underflow or overflow. A final processing step is generally required to handle this problem.
 
