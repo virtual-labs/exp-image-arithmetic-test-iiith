@@ -1,18 +1,19 @@
 [
-{"question":"This is a Sample Question 1?",
+{"question":"1. In a bolt manufacturing plant quality of the bolts produced is of interest. Consider an assembly line of these bolts, and assume an image can be taken of individual bolts coming in the line. One way to assess the quality of a final bolt is to compare the images of the bolt with standard bolt image. In such a scenario, what image arithmetic operation would you perform to identify a faulty bolt?",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"Addition",
+            "b":"Subtraction",
+            "c":"Division",
+            "d":"Multiplication"
           },
-"correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
+"correctAnswer":"c"},
+
+{"question":"2. To remove the background of a face image, which image arithmetic operation is useful?",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"Addition",
+            "b":"Subtraction",
+            "c":"Division",
+            "d":"Multiplication"
           },
-"correctAnswer":"c"} 
+"correctAnswer":"a"}
 ]
