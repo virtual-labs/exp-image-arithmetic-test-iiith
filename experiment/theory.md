@@ -6,23 +6,23 @@ Arithmetic operations are done pixelwise. Let p = A(x,y) and q = B(x,y) be the p
 
 **Addition :**
 
-I(x,y) = A(x,y) + B(x,y) ¡ú r = p + q
+I(x,y) = A(x,y) + B(x,y) → r = p + q
 
 **Subtraction :**
 
-I(x,y) = A(x,y) - B(x,y) ¡ú r = p - q
+I(x,y) = A(x,y) - B(x,y) → r = p - q
 
 **Difference :**
 
-I(x,y) = |A(x,y) - B(x,y)| ¡ú r = |p - q|
+I(x,y) = |A(x,y) - B(x,y)| → r = |p - q|
 
 **Multiplication :**
 
-I(x,y) = A(x,y) X B(x,y) ¡ú r = p x q
+I(x,y) = A(x,y) X B(x,y) → r = p x q
 
 **Division :**
 
-I(x,y) = A(x,y) / B(x,y) ¡ú r = p / q
+I(x,y) = A(x,y) / B(x,y) → r = p / q
 
 
 **Implementation issues:**
@@ -49,4 +49,4 @@ Auto scaling - This operation remaps the range of r to fit to be in [0, 255] as 
 
 r<sub>a</sub> = 255 x (r - r<sub>min</sub>)/(r<sub>max</sub>-r<sub>min</sub>)
 
-Where, r<sub>max</sub> and r<sub>min</sub> are the maximum and minimum values of an arithmetic operation. 
+Where, r<sub>max</sub> and r<sub>min</sub> are the maximum and minimum values of an arithmetic operation.	
