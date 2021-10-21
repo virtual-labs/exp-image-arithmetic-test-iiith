@@ -353,8 +353,8 @@ $("#sliderContent").replaceWith('      <div id="sliderContent" class="ui-corner-
 		else { echo 'images/Layer-4.jpg'; }} ?>" width="281" height="281" alt="InputLayer" /></div>
 
     <!-- This is 'TopBar_jpg' -->
-    <div id="Layer-3" class="TopBar_jpg"  >
-      <img src="images/Layer-3.jpg" width="894" height="96" alt="TopBar" />
+   <!-- <div id="Layer-3" class="TopBar_jpg"  >
+      <img src="images/Layer-3.jpg" width="894" height="96" alt="TopBar" />-->
       <!-- This is 'IIIT' -->
    <!--   <div id="Layer-6" class="IIIT"  >
         <img src="images/iiit.png" width="100" height="70" alt="IIIT" class="pngimg" />
@@ -374,10 +374,10 @@ $("#sliderContent").replaceWith('      <div id="sliderContent" class="ui-corner-
 <li><a href="theory.php?exp=arith" target="_self" >Theory</a>
 </li>
 <li><a href="procedure.php?exp=arith" target="_self" >Procedure</a>
-</li>
+</li>-->
 <li><sel><a href="arith.php" target="_self" >Experiment</a>
 </sel></li>
-<li><a href="#" target="_self" >Assessment</a>
+<!--<li><a href="#" target="_self" >Assessment</a>
 				<ul>
 					<li><a href="quiz.php?exp=arith">Quiz</a></li>
 					<li><a href="assign.php?exp=arith">Assignment</a></li>
@@ -387,8 +387,8 @@ $("#sliderContent").replaceWith('      <div id="sliderContent" class="ui-corner-
 <li><a href="references.php?exp=arith" target="_self" >References</a>
 </li>
 -->
-<li><a href="summary.php" target="_blank" >Summary</a>
-</li>
+<!--<li><a href="summary.php" target="_blank" >Summary</a>
+</li>-->
 </ul>
 </div>
 			</div>
@@ -446,19 +446,19 @@ $("#sliderContent").replaceWith('      <div id="sliderContent" class="ui-corner-
 
       <div id="radio">
 	<input type="radio" id="dully" name="inpImage" value="add2.png"
-	onclick="$('img','#placeholder').attr('src','arith/add2.png');"
+	onclick="$('img','#placeholder').attr('src','images/add2.png');"
 	checked="checked"/><label for="dully">Dull</label>
 	<input type="radio" id="brighty" name="inpImage" value="add1.png"
-	onclick="$('img','#placeholder').attr('src','arith/add1.png');"/>
+	onclick="$('img','#placeholder').attr('src','images/add1.png');"/>
 	<label for="brighty">Bright</label>
 	<input type="radio" id="grady" name="inpImage" value="add3.png"
-	onclick="$('img','#placeholder').attr('src','arith/add3.png');"/>
+	onclick="$('img','#placeholder').attr('src','images/add3.png');"/>
 	<label for="grady">Gradient</label>
       </div>
 
 </div>
 <div id="placeholder" style="margin-left: 30px; width:220px; padding: 5px;
-border: solid grey 1px;height: 220px"><img src="arith/add2.png"
+border: solid grey 1px;height: 220px"><img src="images/add2.png"
 height="220px" width="220px"></div>
 
 
