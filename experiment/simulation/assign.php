@@ -63,7 +63,7 @@ at http://jquery.com
 </sel>
  -->		<!-- 		<ul>
 					<li><a href="quiz.php?exp=<?php echo $exp; ?>">Quiz</a></li> -->
-					<li><a href="assign.php?exp=<?php echo $exp; ?>">Assignment</a></li>
+					<!-- <li><a href="assign.php?exp=<?php echo $exp; ?>">Assignment</a></li> -->
 			   <!-- </ul>
 
 </li> -->
