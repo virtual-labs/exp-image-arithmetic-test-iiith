@@ -1,0 +1,8 @@
+# for rector
+composer.json
+composer.lock
+vendor/
+rector.php
+
+# build folder
+build/
